@@ -1,0 +1,30 @@
+#container.ytd-masthead {
+    box-shadow: 2px 0px 100px rgba(0, 0, 0, 0.1);
+}
+#dismissable.ytd-shelf-renderer {
+    box-shadow: 2px 0px 100px rgba(0, 0, 0, 0.1);
+    margin-left: -2em;
+    margin-right: -2em;
+    padding-left: 2em;
+}
+#guide-inner-content {
+    background: white;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#related.ytd-watch {
+    box-shadow: 2px 0px 100px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 2em;
+}
+
+.ytd-comments {
+    box-shadow: 2px 0px 100px rgba(0, 0, 0, 0.075);
+    background: white;
+    padding: 2em 3em;
+    margin-right: 2em;
+}
+
+ytd-video-secondary-info-renderer {
+    border-bottom: none;
+}
