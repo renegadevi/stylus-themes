@@ -63,9 +63,7 @@
 }
 .side-nav ul li a[href^="/spaces"]::before {
     content: '';
-    /*background: url('https://svgshare.com/i/90w.svg'); /* No border */
     background: url('https://svgshare.com/i/90Y.svg');
-    /* Border */
     width: 20px;
     height: 20px;
     margin-right: 0.5em;
