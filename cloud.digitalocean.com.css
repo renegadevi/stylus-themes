@@ -52,6 +52,16 @@
     height: 20px;
     margin-right: 0.5em;
 }
+.side-nav ul li a[href^="/kubernetes"]::before {
+    content: '';
+    background: url('https://svgshare.com/i/A1a.svg');
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+.side-nav ul li .trailingLabelBox__beta--teal {
+    padding: 2px 5px;
+}
 .side-nav ul li a[href^="/volumes"]::before {
     content: '';
     background: url('https://svgshare.com/i/8yF.svg');
