@@ -69,6 +69,13 @@
     height: 20px;
     margin-right: 0.5em;
 }
+.side-nav ul li a[href^="/databases"]::before {
+    content: '';
+    background: url('https://svgshare.com/i/BTd.svg');
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
 .side-nav ul li a[href^="/spaces"]::before {
     content: '';
     background: url('https://svgshare.com/i/90Y.svg');
