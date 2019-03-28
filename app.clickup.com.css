@@ -1,0 +1,180 @@
+.cu-header, .create-task-button, .create-task-button__new-task {
+    height: 50px;
+}
+.cu-header {
+    padding-right: .5em;
+}
+.cu-nav-pills-block {
+    background: var(--theme-main-color);
+    border-radius: 100px;
+    text-align: center !important;
+}
+.cu-nav-pills__link {
+    height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 90px;
+    justify-content: center;
+    text-align: center !important;
+}
+.task-status, .task-completed-label, .done-task-btn, .cu-todo-list__add, .cu-btn.cu-btn_block {
+    border-radius: 100px;
+}
+.cu-nav-pills__link:last-child {
+    border-radius: 100px;
+}
+.cu-nav-pills__link:first-child {
+    border-radius: 100px;
+    border-right: none;
+}
+.cu-nav-pills__link:hover {
+    background: none;
+    color: white;
+}
+.cu-nav-pills__link_active {
+    background: white;
+    color: var(--theme-main-color-dark);
+    border-radius: 100px;
+}
+.cu-nav-pills__link_active:hover {
+    background: white;
+    color: var(--theme-main-color-dark);
+}
+.create-task-button {
+    border-radius: 100px;
+    height: 38px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.create-task-button__new-task {
+    height: 40px;
+    padding-left: 10px;
+}
+.create-task-button__icon {
+    display: none;
+}
+.create-task-button__extended-menu-icon {
+    margin-left: -10px;
+}
+.cu-nav-user .cu-avatar {
+    border: 0;
+    width: 32px;
+    height: 32px;
+}
+.cu-nav-user .cu-avatar.cu-nav-user__user-label {
+    left: -20px;
+}
+.cu-container {
+    padding-top: 50px;
+}
+.task-container {
+    top: 10px;
+}
+.task__toolbar {
+    padding: 10px 20px;
+}
+.task-container__header {
+    margin: 0 0 10px;
+}
+.lv-rows, .cu-dashboard-time, .cu-dashboard-board {
+    padding: 10px 0 0;
+}
+.cu-dt-controls {
+    height: 50px;
+}
+.ql-tooltip {
+    display: none !important;
+}
+@media (max-width: 992px) {
+    .cu-nav-pills__link {
+        padding: 10px 14px 10px;
+    }
+}
+.create-task-button__dropdown {
+    top: 60px;
+}
+.lv-subcategory {
+    margin-top: 0;
+}
+.cu-dt-filter {
+    margin-left: 0px;
+}
+.cu-dt-filter__item {
+    border: none;
+    background: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+    border-radius: 100px;
+    margin: 0px 3px 10px 3px;
+}
+.cu-dt-filter__input {
+    border-radius: 100px;
+}
+.lv-task__container, .lv-task:last-child .lv-task__container {
+    border-radius: 100px;
+    margin-bottom: 2px;
+}
+.cu-sidebar {
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+}
+.cu-dt-filter__param {
+    color: rgba(52, 52, 52, .75);
+}
+.cu-toggle-switch__slider {
+    background-color: rgba(52, 52, 52, .4);
+}
+.lv-status__label-content {
+    border-radius: 100px;
+}
+.lv-new-task-btn:hover {
+    border-radius: 100px;
+}
+.top-section__body .section-view-all.section-view-all_inactive {
+    color: white;
+}
+.lv-location:hover, .lv-location_open {
+    border-radius: 100px;
+}
+.cu-section-overview-column_main {
+    border-radius: 10px;
+}
+.top-section {
+    background: var(--theme-main-color);
+}
+.top-section__item-title, .top-section__item-title:hover, .top-section__item.selected .top-section__link, .top-section__link, .top-section__link:hover, .top-section__link:active, .top-section__create, .section-view-all, .section-view-all:hover, .top-section__item:hover, .top-section__selected-name, .top-section__item-more {
+    color: #ffffff;
+}
+.top-section__pin, .top-section__pin.top-section_pinned, .top-section__quick-action .cu-dropdown_open .top-section__quick-action-ellipsis, .top-section__quick-action-ellipsis, .top-section__quick-action .cu-dropdown_open .top-section__quick-action-ellipsis, .top-section__quick-action-ellipsis:hover {
+    fill: white;
+}
+.cu-ct__body {
+    padding: 20px 30px 30px;
+}
+.cu-ct__title-container {
+    padding: 0px 20px 0px 0;
+}
+.cu-ct .cu-ct__category-selection-row .cu-ct__favorite-selector, .cu-ct__orderindex-text, .cu-label {
+    border-radius: 100px;
+}
+.cu-ct__submit {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 85%;
+    padding-left: 25%;
+}
+.cu-ct__create-options {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
