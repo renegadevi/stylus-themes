@@ -1,0 +1,79 @@
+.r-1qd0xha {
+    font-weight: 500;
+}
+article[data-testid="tweetDetail"] span {
+    font-weight: 300 !important;
+}
+article[role="article"] span {
+    font-weight: 400 !important;
+}
+article[role="article"] .r-18u37iz a[role="link"] * {
+    font-weight: 600 !important;
+}
+main[role="main"] {
+    margin-left: 88px;
+    background-color: white;
+}
+
+div[data-testid="primaryColumn"] {
+    background-color: #fafcff;
+}
+
+header[role="banner"] {
+    background: rgb(29, 161, 242);
+    color: white;
+    height: 100%;
+    position: fixed;
+}
+.r-1b6yd1w {
+    font-size: 16px;
+}
+
+.r-lwhw9o {
+    height: 1.35rem !important;
+    overflow: visible;
+}
+
+header[role="banner"] a {
+    color: white;
+}
+nav[role="navigation"] .r-hkyrab {
+    color: white;
+}
+.r-13gxpu9 {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+header[role="banner"] .r-13gxpu9 {
+    color: white !important;
+}
+
+@media screen and (min-width: 1264px) {
+    main[role="main"] {
+        margin-left: 275px;
+    }
+}
+.r-1bymd8e {
+    background: #1a91da;
+    /*border-radius: 1em;*/
+    margin-left: -20px;
+    width: 280px;
+    padding-left: 20px;
+}
+.r-urgr8i {
+    background: #1a91da;
+}
+/*
+.r-1niwhzg {
+    background-color: #e6ecf0;
+}*/
+.r-1u4rsef {
+    background-color: white;
+    border: none;
+}
+.css-1dbjc4n > .r-qklmqi {
+    border-color: rgba(0, 0, 0, 0.075);
+}
+.r-p1n3y5 {
+    border-color: rgba(0, 0, 0, 0.075);
+}
