@@ -1,0 +1,8 @@
+th, thead {
+    position: sticky;
+    top: 0;
+}
+/* We don't want to mess with the vertical ones such as as the infobox */
+th[scope=row] {
+    position: relative;
+}
