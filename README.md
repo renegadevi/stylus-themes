@@ -8,6 +8,8 @@
 
 ## wikipedia.org
 
+Adds sticky table header that should be in by default.
+
 ![wikipedia.org](https://gitlab.com/renegadevi/stylus-themes/raw/master/wikipedia.org.png)
 
 ## twitter.com (Light theme)
