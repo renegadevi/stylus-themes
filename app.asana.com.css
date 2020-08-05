@@ -1,0 +1,85 @@
+.Sidebar {
+    background-color: #273241;
+    box-shadow: 0 1px 5px 0 rgba(21,27,38,.08);
+}
+.SidebarTopNavLinks,.SidebarItemRow, .SidebarItemRow:link, .SidebarItemRow:visited, .SidebarCollapsibleHeader, .SidebarCollapsibleHeader:active, .SidebarCollapsibleHeader:hover, .SidebarCollapsibleHeader:hover .SidebarCollapsibleHeader-name, .SidebarCollapsibleHeader:focus .SidebarCollapsibleHeader-name {
+    color: #ffffff !important;
+}
+.SidebarHeader-sideBurgerIcon {
+    fill: #ffffff;
+}
+.SidebarTeamMembersList {
+    display: none;
+}
+.SidebarTeamDetailsProjectsList,
+.SidebarFavoritesAndMore-favorites {
+    padding-left: 10px;
+}
+
+.PageToolbarStructure--withSeparatorDots.PageToolbarStructure--withoutBottomBorder.PageToolbarStructure.ProjectSpreadsheetGridPageToolbar {
+    background: #FAFBFC;
+}
+.PageToolbarStructure--withSeparatorDots.PageToolbarStructure.CalendarPageToolbar {
+    background: #FAFBFC;
+}
+.DropTargetTaskGroupHeader {
+    background: #FAFBFC;
+    border-top: 1px solid #E8ECEE;
+
+}
+.CalendarDay:nth-child(6), .CalendarDay:nth-child(7) {
+    background: #F5F4F5;
+}
+.ProgressStructure {
+    background: #FAFBFC;
+}
+.ProgressStructure-contentAndSidebar {
+    background-color: transparent;
+}
+.Omnibutton-dropdownButton:hover {
+    background: linear-gradient(45deg, #ff5263 0%, #ff7381 60%, #fcbd01 115%);
+    color: #fff;
+    text-decoration: none;
+}
+
+.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--small.SecondarySplitDropdownMenuButton-leftButton,
+.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--withNoLabel.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--small.SecondarySplitDropdownMenuButton-rightButton {
+    background: transparent;
+    color: #fff;
+    fill: #fff;
+    border: none;
+
+}
+.SecondarySplitDropdownMenuButton, .AddTaskDropdownButton {
+    background: linear-gradient(45deg, #ff5263 0%, #ff7381 60%, #fcbd01 115%);
+    color: #fff;
+    fill: #fff;
+    text-decoration: none;
+    border-radius: 5px !important;
+}
+
+.SecondarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:focus, .SecondarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--small.SecondarySplitDropdownMenuButton-leftButton {
+    padding: 1.1em 1.1em;
+}
+.TopbarPageHeaderGlobalActions-upgradeButton {
+    display: none;
+}
+
+.SecondaryButton.AbstractThemeableRectangularButton, .TopbarPageHeaderStructure-rightChildrenWrapper::after {
+    border: none;
+}
+.TopbarSearchTypeahead-input:not(:focus) {
+    border: transparent;
+}
+.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--medium.InverseSecondaryButton.SidebarInvite-button {
+    border: none;
+    background: linear-gradient(45deg, #ff5263 0%, #ff7381 60%, #fcbd01 115%);
+}
+.SortableList-sortableItemContainer {
+    padding-top: 1em;
+}
