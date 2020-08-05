@@ -16,10 +16,7 @@
     padding-left: 10px;
 }
 
-.PageToolbarStructure--withSeparatorDots.PageToolbarStructure--withoutBottomBorder.PageToolbarStructure.ProjectSpreadsheetGridPageToolbar {
-    background: #FAFBFC;
-}
-.PageToolbarStructure--withSeparatorDots.PageToolbarStructure.CalendarPageToolbar {
+.PageToolbarStructure--withSeparatorDots.PageToolbarStructure--withoutBottomBorder.PageToolbarStructure.ProjectSpreadsheetGridPageToolbar, .PageToolbarStructure--withSeparatorDots.PageToolbarStructure.CalendarPageToolbar {
     background: #FAFBFC;
 }
 .DropTargetTaskGroupHeader {
@@ -58,10 +55,11 @@
     border-radius: 5px !important;
 }
 
-.SecondarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:focus, .SecondarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:focus {
+.SecondarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:focus, .SecondarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:focus, .PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:focus, .PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:focus {
     box-shadow: none;
     outline: none;
 }
+
 
 .AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--small.SecondarySplitDropdownMenuButton-leftButton {
     padding: 1.1em 1.1em;
@@ -76,10 +74,15 @@
 .TopbarSearchTypeahead-input:not(:focus) {
     border: transparent;
 }
-.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--medium.InverseSecondaryButton.SidebarInvite-button {
+.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton.AbstractThemeableRectangularButton--medium.InverseSecondaryButton.SidebarInvite-button,.PrimarySplitDropdownMenuButton.AddTaskDropdownButton {
     border: none;
     background: linear-gradient(45deg, #ff5263 0%, #ff7381 60%, #fcbd01 115%);
 }
 .SortableList-sortableItemContainer {
     padding-top: 1em;
+}
+
+.PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:hover, .PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:hover, .PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive, .PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton--isEnabled:active, .PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled.AbstractThemeableRectangularButton--isActive, .PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton--isEnabled:active, .PrimarySplitDropdownMenuButton-leftButton.AbstractThemeableRectangularButton, .PrimarySplitDropdownMenuButton-rightButton.AbstractThemeableRectangularButton {
+    border: none;
+    background: transparent;
 }
